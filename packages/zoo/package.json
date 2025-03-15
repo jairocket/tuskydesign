@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "@tuskdesign/zoo",
   "version": "1.2.0",
   "description": "",
@@ -10,7 +11,7 @@
   ],
   "scripts": {
     "serve": "node dist/index.js",
-    "build": "tsc --build tsconfig.lib.json",
+    "build": "nx tsc:build",
     "typecheck": "tsc"
   },
   "keywords": [],

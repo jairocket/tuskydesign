@@ -18,11 +18,11 @@
   ],
   "references": [
     {
-      "path": "../animals/tsconfig.lib.json"
-    },
-    {
       "path": "../names/tsconfig.lib.json"
     },
+    {
+      "path": "../animals/tsconfig.lib.json"
+    }
   ],
   "exclude": [
     "dist",
